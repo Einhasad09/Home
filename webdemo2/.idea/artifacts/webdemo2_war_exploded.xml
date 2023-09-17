@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="webdemo2:war exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/webdemo2_war_exploded</output-path>
+    <root id="root">
+      <element id="javaee-facet-resources" facet="webdemo2/web/Web" />
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="webdemo2" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="file-copy" path="D:/gsonjar/gson-2.1.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.38/lib/mysql-connector-java-8.0.11.jar" />
+          <element id="file-copy" path="D:/apache-tomcat-8.5.38/lib/jstl-1.2.jar" />
+          <element id="file-copy" path="F:/jar包/gson-2.1.jar" />
+          <element id="file-copy" path="F:/jar包/jstl-1.2.jar" />
+          <element id="file-copy" path="F:/jar包/mysql-connector-java-8.0.11.jar" />
+        </element>
+      </element>
+    </root>
+  </artifact>
+</component>
