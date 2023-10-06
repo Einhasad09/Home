@@ -1,0 +1,25 @@
+log4j属性文件----编译信息生成 文件夹里
+数据库四要素属性文件----jdbc.properties   修改变量名为 driverClass  user
+↑↑↑↑↑↑↑↑↑
+放在src下
+
+
+1.src下创建SqlMapConfig.xml配置文件             MyBatis的
+2.src下创建applicationContext.xml配置文件      Spring的
+	加载外部JDBC属性文件
+	配置数据库连接池
+	配置SqlSessionFactory对象
+	配置Mapper扫描器
+	配置注解扫描路径
+	配置AOP自动创建代理类
+	配置声明式事务 传播策略/管理对象
+		配置事务传播策略
+		配置XML方式的声明式事务
+	配置事务支持注解驱动
+3.创建实体类 ----entity包
+4.创建mapper接口 ----mapper包
+5.创建mapper映射文件 ----mapper包
+   4和5是原来的dao层
+7.创建service层接口 ----service包
+8.创建service层接口实现类  通过implement service层接口 ----service包
+9.创建advice切面类 实现@Aspect和@Component注解   @Before("excution( * )")----util包

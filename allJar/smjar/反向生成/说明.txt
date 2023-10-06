@@ -1,0 +1,3 @@
+generatorConfig.xml文件放在 跟 src平级
+GeneratorSqlmap.java 放在util包里
+mysqlconnectionGAR文件夹里有一个mybatis-generator-core-1.3.2.jar 需要导进去才能反向生成
